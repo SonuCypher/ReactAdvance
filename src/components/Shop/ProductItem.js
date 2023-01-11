@@ -56,9 +56,9 @@ const ProductItem = (props) => {
 
      dispatch(
        cartActions.addItemToCart({
-         id,
-         title,
-         price,
+         id:id,
+         title:title,
+         price:price,
        })
      );
   };
